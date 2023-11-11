@@ -1,0 +1,577 @@
+*, :after, :before { box-sizing: border-box; }
+body{
+   background-color: #FAFAFA;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+}
+@media screen and (max-width: 640px) {
+.obrazek img{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+}
+h1{
+    text-align: center;
+    margin-top: 39.5px;
+    margin-bottom: 42px;
+    font-size: 28px;
+    line-height: 37px;
+    max-width: 194px;
+    height: 37px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1::after{
+    content: "";
+    display: block;
+        width: 70px;
+        height: 3px;
+        background-color: #407BFF;
+        margin-top: 5px;
+        margin-left: 58px;  
+    }
+    .prvni{
+        text-align: center;
+        font-size: 16px;
+        max-width: 460px;
+        height: auto;
+        margin: 0;
+        line-height: 21px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .odkazy{
+        display: flex;
+        flex-direction: column;  
+        justify-content: center;     
+        }
+
+    .action{
+        display: block;
+        text-align: center;
+        background-color: #407BFF;
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+       max-width: 195px;
+        height: auto;
+        padding: 11px 30px 11px 30px;
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+       margin-bottom: 10px;
+       margin-top: 30px;
+    }
+    .pohoda{
+        display: block;
+        text-align: center;
+        background-color: #8B8B8B;
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        max-width: 220px;
+        height: auto;
+        padding: 11px 30px 11px 30px;
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 60px;
+    }
+    h2{
+        text-align: center;
+        font-size: 16px;
+        max-width: 242px;
+        height: auto;
+        display: block;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+    .druhy{
+        text-align: center;
+        font-size: 16px;
+        max-width: 460px;
+        height: auto;
+        margin: 0;
+        line-height: 21px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 28px;
+    }
+.mapa,
+.kaktus,
+.letadlo,
+.palma,
+.slunecnik,
+.auto{
+    display: flex;
+    max-width: 460px;
+height: auto;
+margin-bottom: 15px;
+margin-left: 20px;
+margin-right: 20px;
+box-shadow: 0px 4px 6px #407BFF1F;
+text-decoration: none;
+margin-left: auto;
+margin-right: auto;
+}
+.mapa img,
+.kaktus img,
+.letadlo img,
+.palma img,
+.slunecnik img,
+.auto img{
+   max-width: 45px;
+    max-height: 40px; 
+    margin: 20px 29px 20px 20px;
+}
+.mapa span,
+.kaktus span,
+.letadlo span,
+.palma span,
+.slunecnik span,
+.auto span{
+   max-width: 346px;
+    height: auto;
+    font-size: 13px;
+    margin: 32px 20px 20px 0;
+    text-align: left;
+    text-decoration: none;
+    color: #8B8B8B;
+}
+.delegat {
+    text-align: center;
+     font-size: 16px;
+     max-width: 258px;
+     height: auto;
+     display: block;
+     margin: 0;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 60px;
+     margin-bottom: 17px;
+ }
+ .treti{
+    text-align: center;
+    font-size: 16px;
+    max-width: 460px;
+    height: auto;
+    margin: 0;
+    line-height: 21px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.auto{
+    margin-bottom: 57px;
+}
+}
+@media screen and (min-width: 640px){
+    .obrazek img{
+        width: 400px;
+        display: block;
+        margin: auto;
+        margin-top: 60px;
+    }
+    h1{
+        text-align: center;
+        margin-top: 39.5px;
+        margin-bottom: 42px;
+        font-size: 28px;
+        line-height: 37px;
+        max-width: 194px;
+        height: 37px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1::after{
+        content: "";
+        display: block;
+            width: 70px;
+            height: 3px;
+            background-color: #407BFF;
+            margin-top: 5px;
+            margin-left: 58px;
+        }
+        .prvni{
+            text-align: center;
+            font-size: 16px;
+            max-width: 550px;
+            height: auto;
+            margin: 0;
+            line-height: 21px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+.odkazy{
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+margin-top: 41px;
+}
+       .action{
+            text-align: center;
+            background-color: #407BFF;
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+           max-width: 195px;
+            height: auto;
+            padding: 11px 30px 11px 30px;
+            border-radius: 20px;
+        }
+        .pohoda{
+            
+            text-align: center;
+            background-color: #8B8B8B;
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            max-width: 220px;
+            height: auto;
+           padding: 11px 30px 11px 30px;
+            border-radius: 20px;
+            margin-left: 20px;
+        }
+        h2{
+            text-align: center;
+            font-size: 16px;
+            max-width: 242px;
+            height: auto;
+            display: block;
+            margin: 0;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 17px;
+            margin-top: 80px;
+        }
+        .druhy{
+            text-align: center;
+            font-size: 16px;
+            max-width: 550px;
+            height: auto;
+            margin: 0;
+            line-height: 21px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 40px;
+        }
+       .tlacitka1{
+            display: flex;
+           flex: 0 0 calc(100% - 40px/3);
+            justify-content: center;
+        }
+        .tlacitka2{
+            display: flex;
+            flex: 0 0 calc(100% - 40px/3);
+             justify-content: center; 
+             margin-bottom: 57px;
+        }
+        .mapa,
+        .kaktus,
+        .letadlo,
+        .palma,
+        .slunecnik,
+        .auto{
+        max-width: 230px;
+        max-height: 172px;
+        margin-bottom: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+        box-shadow: 0px 4px 6px #407BFF1F;
+        text-decoration: none;
+        }
+        .kaktus,
+        .slunecnik{
+            margin-left: 0;
+           margin-right: 0; 
+        } 
+        .mapa img,
+        .kaktus img,
+        .letadlo img,
+        .palma img,
+        .slunecnik img,
+        .auto img{
+           max-width: 45px;
+            max-height: 40px; 
+            margin: 40px 92px 20px 92px;
+        }
+        .mapa span,
+        .kaktus span,
+        .letadlo span,
+        .palma span,
+        .slunecnik span,
+        .auto span{
+           max-width: 199px;
+            max-height: 51px;
+            font-size: 13px;
+            margin: 0 15px 20px 15px;
+            text-align: center;
+            text-decoration: none;
+            color: #8B8B8B;
+        }
+        .mapa,
+        .kaktus,
+        .letadlo,
+        .palma,
+        .slunecnik,
+        .auto{
+            display: flex;
+            flex-direction: column;
+            }
+        .delegat {
+            display: block;
+            text-align: center;
+             font-size: 16px;
+             max-width: 258px;
+             height: auto;
+             display: block;
+             margin: 0;
+             margin-left: auto;
+             margin-right: auto;
+             margin-top: 60px;
+             margin-bottom: 17px;
+         }
+         .treti{
+            text-align: center;
+            font-size: 16px;
+            max-width: 550px;
+            height: auto;
+            margin: 0;
+            line-height: 21px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+        @media screen and (min-width: 1100px){
+            body{
+                max-width: 1040px;
+                margin-left: auto;
+                margin-right: auto;
+               border: 2px solid #FAFAFA;
+            }
+            .obrazek img{
+               float: right;
+                width: 425.88px;
+                height: 353.97px;
+                display: block;
+                margin-top: 60px;
+            }
+            h1{
+                text-align: left;
+               margin-top: 39.5px;
+                margin-bottom: 42px;
+                font-size: 28px;
+                line-height: 37px;
+                max-width: 194px;
+                margin-left: 0;
+                margin-top: 133px;
+            }
+            h1::after{
+                content: "";
+                    width: 60px;
+                    height: 3px;
+                    background-color: #407BFF;
+                    margin-top: 5px;
+                    margin-left: 1px;
+                }
+                .prvni{
+                    text-align: left;
+                    font-size: 16px;
+                    max-width: 488px;
+                    height: auto;
+                    margin: 0;
+                    line-height: 21px;
+                    display: block;
+                    margin-top: 42px;
+                }
+                .odkazy{
+                    display: flex;
+                    flex-direction: row;  
+                    justify-content: left;     
+                    margin-top: 30px;
+                    }
+                .action{
+   
+                    text-align: center;
+                    background-color: #407BFF;
+                    color: white;
+                    text-decoration: none;
+                    font-size: 14px;
+                   max-width: 195px;
+                    height: auto;
+                    padding: 11px 30px 11px 30px;
+                    border-radius: 20px;
+                }
+                .pohoda{                  
+                    text-align: center;
+                    background-color: #8B8B8B;
+                    color: white;
+                    text-decoration: none;
+                    font-size: 14px;
+                    max-width: 220px;
+                    height: auto;
+                   padding: 11px 30px 11px 30px;
+                    border-radius: 20px;
+                    margin-left: 20px;
+                }
+.mapa,
+.kaktus,
+.letadlo,
+.palma,
+.slunecnik,
+.auto{
+max-width: 170px;
+max-height: 191px;
+margin-bottom: 15px;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 80px;
+box-shadow: 0px 4px 6px #407BFF1F;
+text-decoration: none;
+}
+.kaktus,
+.slunecnik{
+    margin-left: 0;
+   margin-right: 0; 
+}
+.mapa img,
+.kaktus img,
+.letadlo img,
+.palma img,
+.slunecnik img,
+.auto img{
+   max-width: 45px;
+    max-height: 40px; 
+   margin: 40px 62px 20px 63px;
+}
+.mapa span,
+.kaktus span,
+.letadlo span,
+.palma span,
+.slunecnik span,
+.auto span{
+   max-width: 140px;
+    height: 51px;
+    font-size: 13px;
+    margin: 0 15px 20px 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #8B8B8B;  
+}
+.mapa,
+.kaktus,
+.letadlo,
+.palma,
+.slunecnik,
+.auto{
+    display: flex;
+    flex-direction: column;
+    }
+.letadlo{
+    margin-right: 0;
+}
+.top{
+    display: flex;
+   margin-top: 80px;
+    max-width: 1040px; 
+}
+.tlacitka1{
+    order: -1;
+    max-width: 550px;
+    margin-top: 67px; 
+}
+.tlacitka1 .mapa{
+    margin-left: 0;
+}
+h2{
+    text-align: left;
+    font-size: 16px;
+    max-width: 430px;
+    margin-top: 119px;
+    margin-left: 60px;
+}
+    .druhy{
+        text-align: left;
+        font-size: 16px;
+        max-width: 430px;
+      margin-left: 60px;
+        line-height: 21px;
+    }
+.delegat {
+    text-align: left;
+     font-size: 16px;
+     max-width: 258px;
+     height: auto;
+     margin: 0;
+     margin-top: 39px;
+     margin-bottom: 17px;
+ }
+ .treti{
+    text-align: left;
+    font-size: 16px;
+    max-width: 430px;
+    margin: 0;
+    line-height: 21px;  
+}
+.down{
+    display: flex;
+    max-width: 1040px;
+    flex-direction: row;
+}
+.tlacitka2{
+    max-width: 550px;
+    float: right;
+    justify-content: right;
+}
+.kancelar2{
+    margin-right: 60px;
+}
+.tlacitka2 .auto{
+    margin-right: 0;
+}
+.tlacitka2{
+    margin-bottom: 59px;
+}
+.tlacitka2 .palma,
+.tlacitka2 .slunecnik,
+.tlacitka2 .auto{
+    margin-bottom: 0;
+}
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
